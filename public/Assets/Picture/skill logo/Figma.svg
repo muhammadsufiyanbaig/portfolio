@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720.1 1080" style="enable-background:new 0 0 720.1 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0ACF83;}
+	.st1{fill:#A259FF;}
+	.st2{fill:#F24E1E;}
+	.st3{fill:#FF7262;}
+	.st4{fill:#1ABCFE;}
+</style>
+<g>
+	<title></title>
+	<desc></desc>
+	<path id="path0_fill_1_" class="st0" d="M180,1080c99.3,0,180-80.6,180-180v-180H180c-99.3,0-180,80.6-180,180
+		C0,999.4,80.7,1080,180,1080z"/>
+	<path id="path1_fill_3_" class="st1" d="M0,540c0-99.3,80.6-180,180-180h180v360H180C80.7,720,0,639.3,0,540z"/>
+	<path id="path1_fill_2_" class="st2" d="M0,180C0,80.7,80.6,0,180,0h180v360H180C80.7,360,0,279.4,0,180z"/>
+	<path id="path2_fill_1_" class="st3" d="M360.1,0h180c99.3,0,180,80.6,180,180c0,99.3-80.6,180-180,180h-180V0z"/>
+	<path id="path3_fill_1_" class="st4" d="M720,540c0,99.3-80.6,180-180,180s-180-80.6-180-180s80.6-180,180-180S720,440.7,720,540z"
+		/>
+</g>
+</svg>
