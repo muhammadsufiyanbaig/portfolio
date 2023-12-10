@@ -20,7 +20,7 @@ const Project = () => {
         </div>
         {/* text - end */}
         <div className="flex justify-center items-center">
-          <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 lg:mt-32">
+          <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <Link
