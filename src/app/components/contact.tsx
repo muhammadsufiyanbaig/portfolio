@@ -86,9 +86,7 @@ const Contact = () => {
                         </label>
                         <textarea
                             name="message"
-                            className="h-25 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-gray-300 transition duration-100 focus:ring"
-                            defaultValue={""}
-                        />
+                            className="h-25 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-gray-300 transition duration-100 focus:ring"/>
                     </div>
                     <div className="flex items-center justify-between sm:col-span-2">
                         <button className="inline-flex justify-items-center text-black-100 bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg hover:text-white">
