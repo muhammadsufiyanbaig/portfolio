@@ -16,7 +16,7 @@ const Contact = () => {
                 </div>
                 {/* text - end */}
                 {/* form - start */}
-                <form className="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2">
+                <form action="mailto:send.sufiyan@gmail.com" className="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2">
                     <div>
                         <label
                             htmlFor="first-name"
