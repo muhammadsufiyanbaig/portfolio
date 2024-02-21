@@ -21,6 +21,7 @@ const Skill = () => {
     "Canva",
     "firebase",
     "Git",
+    'Shadcn UI'
   ];
   return (
     <div id="skills" className="flex justify-center mt-10 items-center">

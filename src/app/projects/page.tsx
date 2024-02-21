@@ -1,165 +1,139 @@
-import React from "react";
-import Image from 'next/image';
-import Link from 'next/link';
-import Frontend from '../../../public/Assets/Project/FrontedDevelopment.jpg';
-import Console from '../../../public/Assets/Project/ConsoleInteractive.jpg';
-import FullStack from '../../../public/Assets/Project/FullStackDevelopment.jpg';
-import DataScience from '../../../public/Assets/Project/DataScience.jpg';
+"use client";
+import React, { useState } from "react";
+import Link from "../../../node_modules/next/link";
+
 const Project = () => {
+  const projects = [
+    {
+      ProjectName: "Portfolio",
+      ProjectLinks: "/",
+      ProjectDescription:
+        "This is my personal portfolio website. It is built using Next.js and Tailwind CSS. It is hosted on Vercel.",
+      Skills: ["Next.js", "Tailwind CSS", "TS"],
+    },
+    {
+      ProjectName: "Next Commerce",
+      ProjectLinks: "https://nxtcom.vercel.app/",
+      ProjectDescription:
+        "This is a Next.js e-commerce website. It is built using Next.js, Tailwind CSS and Sanity.io. It is hosted on Vercel.",
+      Skills: ["Next.js", "Tailwind CSS", "TS", "Sanity.io", "Shadcn UI"],
+    },
+    {
+      ProjectName: "Gallery Grid",
+      ProjectLinks: "https://gallerygrid.vercel.app/",
+      ProjectDescription:
+        "This is a Next.js Picture Gallery website. It is built using Next.js, Tailwind CSS, NextAuth and Firebase. It is hosted on Vercel.",
+      Skills: ["Next.js", "Tailwind CSS", "TS", "firebase"],
+    },
+    {
+      ProjectName: "Cobra Chase",
+      ProjectLinks: "https://cobrachase.vercel.app/",
+      ProjectDescription:
+        "This is a Snake game. It is built using HTML, CSS and JS. It is hosted on Vercel.",
+      Skills: ["CSS", "HTML", "JS"],
+    },
+    {
+      ProjectName: "Entry Exit",
+      ProjectLinks: "https://entry-exit.vercel.app/",
+      ProjectDescription:
+        "This Login and SignUp system. It is built using React.js, Tailwind CSS, JS and Redux. It is hosted on Vercel.",
+      Skills: ["React.js", "Tailwind CSS", "JS", "Redux"],
+    },
+    {
+      ProjectName: "Syntax Sphere",
+      ProjectLinks: "https://syntaxsphere.vercel.app/",
+      ProjectDescription:
+        "This is a Text Editor. It is built using React.js, Tailwind CSS and JS. It is hosted on Vercel.",
+      Skills: ["React.js", "Tailwind CSS", "JS"],
+    },
+    {
+      ProjectName: "Organize Orbit",
+      ProjectLinks: "https://organizeorbit.vercel.app/",
+      ProjectDescription:
+        "This is a To-Do List. It is built using React.js, Tailwind CSS and JS. It is hosted on Vercel.",
+      Skills: ["React.js", "Tailwind CSS", "JS"],
+    },
+    {
+      ProjectName: "Rupeeya",
+      ProjectLinks: "https://rupeeya.vercel.app/",
+      ProjectDescription:
+        "This is a Expense Tracker. It is built using React.js, Tailwind CSS, JS and Chart.js. It is hosted on Vercel.",
+      Skills: ["React.js", "Tailwind CSS", "JS"],
+    },
+    {
+      ProjectName: "Koldware Industries",
+      ProjectLinks: "https://koldware-clone.vercel.app/",
+      ProjectDescription:
+        "This is a Static Website of Koldware Industries. It is built using Next.js, Tailwind CSS, Shadcn UI and Sanity.io. It is hosted on Vercel.",
+      Skills: ["Next.js", "Tailwind CSS", "TS", "ShadCn UI"],
+    },
+  ];
+  const [expandedDescriptionIndex, setExpandedDescriptionIndex] =
+    useState(null);
+
+  const toggleExpandDescription = (index:any) => {
+    if (expandedDescriptionIndex === index) {
+      setExpandedDescriptionIndex(null);
+    } else {
+      setExpandedDescriptionIndex(index);
+    }
+  };
   return (
     <div className="bg-gray-50 py-6 sm:py-8 lg:py-12" id="project">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8 sm:h-full lg:h-screen ">
-        {/* text - start */}
+      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+          <h2 className="mb-4 font-mono text-center text-3xl font-bold text-gray-800 md:mb-6 lg:text-4xl">
             Projects
           </h2>
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-          Introducing a section of my completed works or ongoing endeavors, showcasing my portfolio or ongoing initiatives.
+            Introducing a section of my completed works or ongoing endeavors,
+            showcasing my portfolio or ongoing initiatives.
           </p>
         </div>
-        {/* text - end */}
-        <div className="flex justify-center items-center">
-          <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8 2xl:mt-32">
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <Link
-                href="/projects/JS"
-                target="_blank"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <Image
-                  src={Frontend}
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  alt="Photo by Minh Pham"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </Link>
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800 text-center">
-                  <Link
-                    href="/projects/HTML,CSS&JS"
-                    target="_blank"
-                    className="transition duration-100 hover:text-gray-500 active:text-gray-600"
-                  >
-                    HTML, CSS & Javascript
-                  </Link>
-                </h2>
-                <p className="mb-8 text-gray-500 text-center">
-                HTML structures web content, CSS styles its appearance, and JavaScript adds
-                 interactivity, forming the core of modern web development. Essential trio!
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {projects.map((item, index) => {
+            const isExpanded = expandedDescriptionIndex === index;
+            const truncatedDescription =
+              item.ProjectDescription.length > 50
+                ? item.ProjectDescription.slice(0, 50) + "..."
+                : item.ProjectDescription;
+
+            return (
+              <div key={index} className="bg-white rounded-lg shadow-xl p-6">
+                <Link className="block mb-4" href={item.ProjectLinks}>
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {item.ProjectName}
+                  </h3>
+                </Link>
+                <p className="text-gray-700 mb-4">
+                  {isExpanded ? item.ProjectDescription : truncatedDescription}
+                  {!isExpanded && (
+                    <span
+                      className="text-gray-500 cursor-pointer"
+                      onClick={() => toggleExpandDescription(index)}
+                    >
+                      {" "}
+                      (read more)
+                    </span>
+                  )}
                 </p>
-                <div className="mt-auto flex items-end justify-between">
+                <div className="flex flex-wrap gap-2">
+                  {item.Skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-2 py-1 bg-gray-200 text-gray-800 text-sm rounded"
+                    >
+                      #{skill}
+                    </span>
+                  ))}
                 </div>
               </div>
-            </div>
-            {/* article - end */}
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <a
-                href="/projects/Typescript&Node.js"
-                target="_blank"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <Image
-                  src={Console}
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  alt="Photo by Minh Pham"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-              <div className="flex flex-1 flex-col p-4 sm:p-6  text-center">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <Link
-                    href="/projects/Typescript&Node.js"
-                    target="_blank"
-                    className="transition duration-100 hover:text-gray-500 active:text-gray-600"
-                  >
-                    Typescript & Node.Js
-                  </Link>
-                </h2>
-                <p className="mb-8 text-gray-500">
-                TypeScript enhances Node.js with strong typing, improving reliability,
-                scalability, and maintainability in JavaScript-based server-side applications.
-                </p>
-              </div>
-            </div>
-            {/* article - end */}
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <Link
-                href="/projects/FullStackDevelopment"
-                target="_blank"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <Image
-                  src={FullStack}
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  alt="Photo by Minh Pham"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </Link>
-              <div className="flex flex-1 flex-col p-4 sm:p-6 text-center">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <Link
-                    href="/projects/FullStackDevelopment"
-                    target="_blank"
-                    className="transition duration-100 hover:text-gray-500 active:text-gray-600"
-                  >
-                    Full Stack Development
-                  </Link>
-                </h2>
-                <p className="mb-8 text-gray-500">
-                Full-stack development: proficiency in both frontend (client-side) and 
-                backend (server-side) technologies, creating complete web applications or software solutions.
-                </p>
-              </div>
-            </div>
-            {/* article - end */}
-            {/* article - start */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <Link
-                href="/projects/DataScience"
-                target="_blank"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <Image
-                  src={DataScience}
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  alt="Photo by Minh Pham"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </Link>
-              <div className="flex flex-1 flex-col p-4 sm:p-6 text-center">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <Link
-                    href="/projects/DataScience"
-                    target="_blank"
-                    className="transition duration-100 hover:text-gray-500 active:text-gray-600"
-                  >
-                    Data Science
-                  </Link>
-                </h2>
-                <p className="mb-8 text-gray-500">
-                Data science combines statistics, programming, and domain expertise to extract
-                insights, patterns, and knowledge from complex data sets effectively.
-                </p>
-              </div>
-            </div>
-            {/* article - end */}
-          </div>
+            );
+          })}
         </div>
       </div>
     </div>
-
-  )
+  );
 };
-export default Project 
+
+export default Project;

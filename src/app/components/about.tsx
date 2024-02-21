@@ -7,7 +7,7 @@ const About = () => {
                 About me
             </h2>
             <p className="text-gray-500 sm:text-lg mx-5 text-center">
-                I'm <b>Muhammad Sufiyan Baig</b>, currently pursuing a BS in Data Science at SMIU University while advancing my skills as a Generative AI Engineer through PIAIC. With prior experience as a Frontend Trainee at Panacloud, I've completed courses in CIT and Graphic Designing from MITI after matriculating from K.C.S School, and completing my Inter from Govt. Dehli College.
+                I am <b>Muhammad Sufiyan Baig</b>, currently pursuing a BS in Data Science at SMIU University while advancing my skills as a Generative AI Engineer through PIAIC. I have completed courses in CIT and Graphic Designing from MITI after matriculating from K.C.S School, and completing my Inter from Govt. Dehli College.
             </p>
             
             <div className="flex justify-center items-center mt-5 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
