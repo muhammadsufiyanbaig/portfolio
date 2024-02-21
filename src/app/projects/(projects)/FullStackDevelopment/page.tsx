@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import Portfolio from '../../../../public/Assets/Project/Portfolio.jpg';
+import Portfolio from '../../../../../public/Assets/Project/Portfolio.jpg';
 import Image from 'next/image';
 const Home = () => {
   return (

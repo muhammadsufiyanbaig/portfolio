@@ -13,13 +13,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
-              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-500 hover:bg-gray-200 hover:text-gray-600  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
               onClick={toggleMenu}
@@ -68,32 +68,32 @@ const Navbar = () => {
               <div className="flex space-x-4">
                 <Link
                   href="/"
-                  className="text-white  hover:bg-gray-700 rounded-md px-3 py-2 text-md font-bold"
-                  aria-current="page"
+                  className="text-gray-500  hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
+                
                 >
                   Home
                 </Link>
                 <Link
-                  href="#about"
-                  className="text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-bold"
+                  href="/#about"
+                  className="text-gray-500 hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
                 >
                   About
                 </Link>
                 <Link
-                  href="#skill"
-                  className="text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-bold"
+                  href="/#skill"
+                  className="text-gray-500 hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
                 >
                   Skills
                 </Link>
                 <Link
-                  href="#project"
-                  className="text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-bold"
+                  href="projects"
+                  className="text-gray-500 hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
                 >
                   Project
                 </Link>
                 <Link
-                  href="#contact"
-                  className="text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-md font-bold"
+                  href="/#contact"
+                  className="text-gray-500 hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
                 >
                   Contact
                 </Link>
@@ -106,32 +106,32 @@ const Navbar = () => {
         <div className="space-y-1 px-2 pb-3 pt-2">
           <Link
             href="/"
-            className=" text-white hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-bold"
+            className=" text-gray-500  hover:bg-gray-200 block rounded-md px-3 py-2 text-base font-bold"
             aria-current="page"
           >
             Home
           </Link>
           <Link
             href="#about"
-            className="text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-bold"
+            className="text-gray-500  hover:bg-gray-200 hover:text-gray-600  block rounded-md px-3 py-2 text-base font-bold"
           >
             About
           </Link>
           <Link
             href="#skill"
-            className="text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-bold"
+            className="text-gray-500  hover:bg-gray-200 hover:text-gray-600  block rounded-md px-3 py-2 text-base font-bold"
           >
             Skills
           </Link>
           <Link
             href="#project"
-            className="text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-bold"
+            className="text-gray-500  hover:bg-gray-200 hover:text-gray-600  block rounded-md px-3 py-2 text-base font-bold"
           >
             Projects
           </Link>
           <Link
             href="#contact"
-            className="text-white hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-bold"
+            className="text-gray-500  hover:bg-gray-200 hover:text-gray-600  block rounded-md px-3 py-2 text-base font-bold"
           >
             Contact
           </Link>

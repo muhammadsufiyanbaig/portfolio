@@ -41,7 +41,7 @@ const Footer = () => {
                             <FaInstagram />
                         </Link>
                         <Link
-                            href={"https://www.linkedin.com/in/muhammadsufiyanbaig//"}
+                            href={"https://www.linkedin.com/in/muhammadsufiyanbaig/"}
                             className="text-gray-500 text-2xl ml-3"
                             target="_blank">
                             <FiLinkedin />
@@ -69,6 +69,12 @@ const Footer = () => {
                             className="text-gray-500 text-2xl ml-3"
                             target="_blank">
                             <MdWifiCalling />
+                        </a>
+                        <a
+                            href={"mailto:send.sufiyan@gmail.com"}
+                            className="text-gray-500 text-2xl ml-3"
+                            target="_blank">
+                            <IoMailUnread />
                         </a>
                         
           </div>

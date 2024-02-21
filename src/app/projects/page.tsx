@@ -24,7 +24,7 @@ const Project = () => {
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <Link
-                href="\HTML,CSS&JS"
+                href="/projects/HTML,CSS&JS"
                 target="_blank"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
@@ -40,7 +40,7 @@ const Project = () => {
               <div className="flex flex-1 flex-col p-4 sm:p-6">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800 text-center">
                   <Link
-                    href="\HTML,CSS&JS"
+                    href="/projects/HTML,CSS&JS"
                     target="_blank"
                     className="transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >
@@ -59,7 +59,7 @@ const Project = () => {
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <a
-                href="\Typescript&Node.js"
+                href="/projects/Typescript&Node.js"
                 target="_blank"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
@@ -75,7 +75,7 @@ const Project = () => {
               <div className="flex flex-1 flex-col p-4 sm:p-6  text-center">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800">
                   <Link
-                    href="\Typescript&Node.js"
+                    href="/projects/Typescript&Node.js"
                     target="_blank"
                     className="transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >
@@ -92,7 +92,7 @@ const Project = () => {
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <Link
-                href="\FullStackDevelopment"
+                href="/projects/FullStackDevelopment"
                 target="_blank"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
@@ -108,7 +108,7 @@ const Project = () => {
               <div className="flex flex-1 flex-col p-4 sm:p-6 text-center">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800">
                   <Link
-                    href="\FullStackDevelopment"
+                    href="/projects/FullStackDevelopment"
                     target="_blank"
                     className="transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >
@@ -125,7 +125,7 @@ const Project = () => {
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <Link
-                href="\DataScience"
+                href="/projects/DataScience"
                 target="_blank"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
@@ -141,7 +141,7 @@ const Project = () => {
               <div className="flex flex-1 flex-col p-4 sm:p-6 text-center">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800">
                   <Link
-                    href="\DataScienc\FullStackDevelopment"
+                    href="/projects/DataScience"
                     target="_blank"
                     className="transition duration-100 hover:text-gray-500 active:text-gray-600"
                   >

@@ -1,18 +1,18 @@
 'use client'
 import React from 'react';
 import Image from 'next/image';
-import ATM from '../../../../public/Assets/Project/ATM.jpg';
-import Bank from '../../../../public/Assets/Project/BankManagment.jpg';
-import Student from '../../../../public/Assets/Project/StudentManagmentSystem.jpg';
-import Currency from '../../../../public/Assets/Project/Currency.jpg';
-import Dice from '../../../../public/Assets/Project/Dice.jpg';
-import OOPs from '../../../../public/Assets/Project/OOPs.jpg';
-import Todo from '../../../../public/Assets/Project/TaskManager.jpg';
-import Timmer from '../../../../public/Assets/Project/Timmer.jpg';
-import Game from '../../../../public/Assets/Project/Game.jpg';
-import WordGame from '../../../../public/Assets/Project/WordGame.jpg';
-import Quiz from '../../../../public/Assets/Project/ConsoleQuiz.jpg';
-import Calculator from '../../../../public/Assets/Project/Calculator.jpg';
+import ATM from '../../../../../public/Assets/Project/ATM.jpg';
+import Bank from '../../../../../public/Assets/Project/BankManagment.jpg';
+import Student from '../../../../../public/Assets/Project/StudentManagmentSystem.jpg';
+import Currency from '../../../../../public/Assets/Project/Currency.jpg';
+import Dice from '../../../../../public/Assets/Project/Dice.jpg';
+import OOPs from '../../../../../public/Assets/Project/OOPs.jpg';
+import Todo from '../../../../../public/Assets/Project/TaskManager.jpg';
+import Timmer from '../../../../../public/Assets/Project/Timmer.jpg';
+import Game from '../../../../../public/Assets/Project/Game.jpg';
+import WordGame from '../../../../../public/Assets/Project/WordGame.jpg';
+import Quiz from '../../../../../public/Assets/Project/ConsoleQuiz.jpg';
+import Calculator from '../../../../../public/Assets/Project/Calculator.jpg';
 const Home = () => {
   return (
     <div>
