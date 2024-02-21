@@ -12,7 +12,7 @@ const Project = () => {
         {/* text - start */}
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-            Project
+            Projects
           </h2>
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
           Introducing a section of my completed works or ongoing endeavors, showcasing my portfolio or ongoing initiatives.
@@ -24,7 +24,7 @@ const Project = () => {
             {/* article - start */}
             <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
               <Link
-                href="/projects/HTML,CSS&JS"
+                href="/projects/JS"
                 target="_blank"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
