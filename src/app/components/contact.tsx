@@ -4,7 +4,7 @@ const Contact = () => {
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 h-full">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
-                    <h2 className="mb-4 text-center text-2xl font-mono font-bold text-gray-800 md:mb-6 lg:text-3xl">
+                    <h2 className="mb-4 font-mono text-center text-3xl font-bold text-gray-800 md:mb-6 lg:text-4xl">
                         Get in touch
                     </h2>
                     <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
