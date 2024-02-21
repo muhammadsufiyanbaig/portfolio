@@ -100,7 +100,7 @@ const Project = () => {
 
             return (
               <div key={index} className="bg-white rounded-lg shadow-xl p-6">
-                <Link className="block mb-4" href={item.ProjectLinks}>
+                <Link target={'_blank'} className="block mb-4" href={item.ProjectLinks}>
                   <h3 className="text-xl font-bold text-gray-900">
                     {item.ProjectName}
                   </h3>
