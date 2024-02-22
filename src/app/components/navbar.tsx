@@ -80,7 +80,7 @@ const Navbar = () => {
                   About
                 </Link>
                 <Link
-                  href="/#skill"
+                  href="/#skills"
                   className="text-gray-500 hover:bg-gray-200 hover:text-gray-600 rounded-md px-3 py-2 text-md font-bold"
                 >
                   Skills
@@ -118,7 +118,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            href="/#skill"
+            href="/#skills"
             className="text-gray-500  hover:bg-gray-200 hover:text-gray-600  block rounded-md px-3 py-2 text-base font-bold"
           >
             Skills
