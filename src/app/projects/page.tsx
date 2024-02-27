@@ -33,6 +33,20 @@ const Project = () => {
       Skills: ["CSS", "HTML", "JS"],
     },
     {
+      ProjectName: "Task Connect",
+      ProjectLinks: "https://taskconnect.vercel.app/",
+      ProjectDescription:
+        "This is a Todo list app. It is built using HTML, CSS and JS. It is hosted on Vercel.",
+      Skills: ["CSS", "HTML", "JS"],
+    },
+    {
+      ProjectName: "Sigma Quiz",
+      ProjectLinks: "https://sigma-quiz.vercel.app/",
+      ProjectDescription:
+        "This is a Quiz app. It is built using HTML, CSS and JS. It is hosted on Vercel.",
+      Skills: ["CSS", "HTML", "JS"],
+    },
+    {
       ProjectName: "Entry Exit",
       ProjectLinks: "https://entry-exit.vercel.app/",
       ProjectDescription:
