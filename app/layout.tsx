@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tecno Gas Pakistan | Premium Home Appliances Since 1995",
-  description: "Tecno Gas Pakistan has been a trusted name in high-quality home appliances since 1995. Explore our wide range of hobs, ovens, cooker hoods, and water heater geysers. Elevate your home with premium kitchen solutions and efficient water heating systems."
+  title: "Sufiyan | Personal Portfolio",
+  description: "This is portfolio website of full stack web developer hosted on vercel"
 };
 
 
