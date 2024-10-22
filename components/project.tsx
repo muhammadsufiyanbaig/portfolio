@@ -12,8 +12,7 @@ export default function Project({
   title,
   description,
   tags,
-  imageUrl,
-  technicalDetails
+  imageUrl
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
