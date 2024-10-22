@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         After completing Intermediate with in
         <span className="font-medium"> Computer Science</span>, I pursued my passion for web development.
-        I gained hands-on experience as a Full-stack Intern at Panacloud Pvt Ltd, where I developed and maintained responsive, user-friendly, and visually appealing websites using
+        I gained hands-on experience as a Full Stack Developer at Panacloud Pvt Ltd, where I developed and maintained responsive, user-friendly, and visually appealing websites using
         <span className="font-medium">Next.js, React.js, and Tailwind CSS</span>.
         <span className="italic">My favorite part of web development</span> is creating intuitive user experiences and optimizing website performance.
         My core stack includes

@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import Ecommerce from "@/public/Ecommerce.jpg";
 import PictureGallery from "@/public/PictureGallery.jpg";
 import ExpenseTracker from "@/public/ExpenseTracker.jpg";
-import LoginSignup from "@/public/LoginSignup.jpg"
+import TGAppliances from "@/public/Tgappliances.jpg"
 import Quiz from "@/public/Quiz.jpg"
 import CryptoFleet from "@/public/Cryptofleet.jpg"
 export const links = [
@@ -38,20 +38,53 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full-Stack Developer",
+    location: "Innovative Widget",
+    description:
+      "I'm now a Full Stack Developer working at Innovative Widget. My stack includes React, Next.js, TypeScript, Tailwind, Firebase, Express.js and SQLite. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "Sep-2024 - present",
+  },
+  {
+    title: "Web Developer",
+    location: "TG-Appliances",
+    description:
+    "I also worked as a freelance web developer at TG Appliances, where I contributed to building and maintaining their web solutions.", 
+     icon: React.createElement(LuGraduationCap),
+    date: "Sep-2024 - Oct-2024",
+  },
+  {
+    title: "Full-Stack Developer",
     location: "Panacloud Pvt Ltd",
     description:
-      "I'm now a full-stack intern working at Panacloud. My stack includes React, Next.js, TypeScript, Tailwind, Firebase, Express.js and SQLite. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "Sep-2023 - present",
+      "I was a Full Stack Developer at Panacloud. My stack included React, Next.js, TypeScript, Tailwind, Firebase, Express.js, and SQLite. I was open to full-time opportunities.",  
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep-2023 - Sep-2024",
   },
 ] as const;
 
 export const projectsData = [
   
   {
+    title: "Square 1 Mall (Investment Management System)",
+    description:
+      "I am currently working on Square 1 Mall (Investment Management System).",
+    tags: ["React", "Tailwind", "Javascript", "React.js", "Node.js", "My SQL"],
+    imageUrl: CryptoFleet,
+    link: "https://cryptofleet.io/",
+  },
+  {
+    title: "TG-Appliances",
+    description:
+      "I created a website for TG-Appliances, a leading manufacturer of home appliances in Pakistan. The website is built using Next.js, Tailwind CSS, and Firebase.",
+    tags: ["React", "Tailwind", "Typescript", "Next.js", "Resend"],
+    imageUrl: TGAppliances,
+    link: "https://tgappliances.com/",
+  },
+ 
+  {
     title: "Cryptofleet.io",
     description:
-      "I am currently working on Cryptofleet.io, a crypto trading platform is building on Next.js.",
+      "I worked on Cryptofleet.io, a crypto trading platform is building on Next.js. When I was in Panacloud PVT LTD",
     tags: ["React", "Tailwind", "Typescript", "Next.js"],
     imageUrl: CryptoFleet,
     link: "https://cryptofleet.io/",
