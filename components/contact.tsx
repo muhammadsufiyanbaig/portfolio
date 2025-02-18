@@ -61,6 +61,14 @@ export default function Contact() {
           maxLength={500}
           placeholder="Your email"
         />
+        <input
+          className="h-14 my-3 px-4 rounded-lg borderBlack dark:bg-gray-800 dark:text-gray-50 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="subject"
+          type="text"
+          required
+          maxLength={500}
+          placeholder="Your subject"
+        />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-gray-800 dark:text-gray-50 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
