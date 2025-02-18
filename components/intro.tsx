@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/Pic.jpg"
+              src="/Sufiyan.jpg"
               alt="Muhammad Sufiyan Baig"
               width="192"
               height="192"
