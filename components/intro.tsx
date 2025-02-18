@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pic.jpg"
+              src="/Pic.jpg"
               alt="Muhammad Sufiyan Baig"
               width="192"
               height="192"
@@ -41,17 +41,16 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-teal-900 dark:text-gray-200"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-black">Hello, I'm Sufiyan.</span> I'm a{" "}
-        <span className="font-black">full-stack developer.</span> I enjoy
-        building <span className="italic font-semibold">sites & Web apps</span>. My focus is{" "}
-      <span className="underline text-gray-950 dark:text-gray-100">Next.js, FastAPI & Neon Database.</span>
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-teal-900 dark:text-gray-200"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-black">Hello, I'm Sufiyan.</span> A{" "}
+  <span className="font-black">Full-Stack Developer</span> skilled in{" "}
+  <span className="underline text-gray-950 dark:text-gray-100">Next.js, FastAPI, and Neon Database</span>, 
+  building high-performance web apps.
+</motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

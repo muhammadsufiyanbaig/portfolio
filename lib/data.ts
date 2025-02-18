@@ -2,11 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Ecommerce from "@/public/Ecommerce.jpg";
-import PictureGallery from "@/public/PictureGallery.jpg";
-import ExpenseTracker from "@/public/ExpenseTracker.jpg";
-import TGAppliances from "@/public/Tgappliances.jpg"
-import Quiz from "@/public/Quiz.jpg"
+import squareonecommunity from "@/public/squareonecommunity.jpg";
+import Evorgs from "@/public/Evorgs.jpg";
 import CryptoFleet from "@/public/Cryptofleet.jpg"
 export const links = [
   {
@@ -40,7 +37,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Innovative Widget",
     description:
-      "I'm now a Full Stack Developer working at Innovative Widget. My stack includes React, Next.js, TypeScript, Tailwind, Firebase, Express.js and SQLite. I'm open to full-time opportunities.",
+      "Mentored and lead junior developers to encourage collaboration and growth. Design, developed and deployed user-friendly full-stack web applications.",
     icon: React.createElement(FaReact),
     date: "Sep-2024 - present",
   },
@@ -56,7 +53,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Panacloud Pvt Ltd",
     description:
-      "I was a Full Stack Developer at Panacloud. My stack included React, Next.js, TypeScript, Tailwind, Firebase, Express.js, and SQLite. I was open to full-time opportunities.",  
+      "Developed and managed responsive websites using Framework & Librariess. Collaborated with teams to improve website performance and user experience.",  
     icon: React.createElement(CgWorkAlt),
     date: "Sep-2023 - Sep-2024",
   },
@@ -65,83 +62,58 @@ export const experiencesData = [
 export const projectsData = [
   
   {
-    title: "Square 1 Mall (Investment Management System)",
-    description:
-      "I am currently working on Square 1 Mall (Investment Management System).",
-    tags: ["React", "Tailwind", "Javascript", "React.js", "Node.js", "My SQL"],
-    imageUrl: CryptoFleet,
-    link: "https://cryptofleet.io/",
-  },
-  {
-    title: "TG-Appliances",
-    description:
-      "I created a website for TG-Appliances, a leading manufacturer of home appliances in Pakistan. The website is built using Next.js, Tailwind CSS, and Firebase.",
-    tags: ["React", "Tailwind", "Typescript", "Next.js", "Resend"],
-    imageUrl: TGAppliances,
-    link: "https://tgappliances.com/",
-  },
- 
-  {
     title: "Cryptofleet.io",
     description:
-      "I worked on Cryptofleet.io, a crypto trading platform is building on Next.js. When I was in Panacloud PVT LTD",
-    tags: ["React", "Tailwind", "Typescript", "Next.js"],
+      "Worked on a crypto trading platform using Next.js, Tailwind CSS, and GraphQL. Implemented seamless user experience with real-time data handling",
+    tags: ["React", "Tailwind", "Typescript", "Next.js", 'GraphQl'],
     imageUrl: CryptoFleet,
     link: "https://cryptofleet.io/",
   },
   {
-    title: "QuizNex",
-    description:
-      "Quiz App with React.js, Tailwind CSS, Neon DB and Express.js. Teachers upload questions; students take quizzes. Cheat-proof with disabled shortcuts.",
-    tags: ["React", "Tailwind", "Javascript", "Express.js", "Neondb", "JWT"],
-    imageUrl: Quiz,
-    link: "https://quiznex.vercel.app/",
-   
+    title: "Square One Community",
+    description: "Lead the development of Square One, a Next.js and Node.js platform for brands to offer deals and users to redeem them.",
+    tags: ["Tailwind", "Typescript", "Next.js", "Node.js", "Express.js", 'Neon Postgress'],
+    imageUrl: squareonecommunity,
+    link: "https://squareonecommunity.vercel.app/",
   },
   {
-    title: "Gallery Grid",
+    title: "Evorgs",
     description:
-      "It's a Next.js Picture Gallery website. It is built using Next.js, Tailwind CSS, NextAuth and Firebase. It is hosted on Vercel.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Firebase"],
-    imageUrl: PictureGallery,
-    link: "https://nxtcom.vercel.app/",
+      "Working on event management app with admin roles, vendor roles, and user role. Using Next.js, Tailwind CSS, FastAPI, and Neon DB for secure functionality.",
+    tags: ["Next.js", "Tailwind", "Typescript", "Neon Postgress", "FastAPI", "GraphQL"],
+    imageUrl: Evorgs,
+    link: "https://evorgs.vercel.app",
   },
-  {
-    title: "Next Commerce",
-    description:
-      "This is a Next.js e-commerce website. It is built using Next.js, Tailwind CSS and Sanity.io. It is hosted on Vercel.",
-    tags: ["React", "Next.js", "Tailwind CSS", "Sanity.io", "Shadcn UI"],
-    imageUrl: Ecommerce,
-    link: "https://next-commerce-nu.vercel.app/",
-  },
-  {
-    title: "Rupeeya Expense Tracker",
-    description:
-      "This is a Expense Tracker. It is built using React.js, Tailwind CSS, JS and Chart.js. It is hosted on Vercel.",
-    tags: ["React", "Tailwind", "Javascript",],
-    imageUrl: ExpenseTracker,
-    link: "https://rupeeya.vercel.app/",
-  },
- 
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "SQLite",
-  "Redux",
-  "Groq",
-  "Sanity.io",
-  "Express",
-  "Neon Postgress",
-  "Python",
-  "FastAPI",
-  "Framer Motion",
+  { name: "JavaScript", category: "Programming Language" },
+  { name: "TypeScript", category: "Programming Language" },
+  { name: "Python", category: "Programming Language" },
+  { name: "React.js", category: "Framework & Libraries" },
+  { name: "Next.js", category: "Framework & Libraries" },
+  { name: "Node.js", category: "Framework & Libraries" },
+  { name: "Express.js", category: "Framework & Libraries" },
+  { name: "FastAPI", category: "Framework & Libraries" },
+  { name: "SQL Model", category: "Framework & Libraries" },
+  { name: "MySQL", category: "Framework & Libraries" },
+  { name: "Neon Postgres", category: "Framework & Libraries" },
+  { name: "SQLite", category: "Framework & Libraries" },
+  { name: "Tailwind CSS", category: "Framework & Libraries" },
+  { name: "Material UI", category: "Framework & Libraries" },
+  { name: "ShadCn UI", category: "Framework & Libraries" },
+  { name: "Redux", category: "Framework & Libraries" },
+  { name: "Zustand", category: "Framework & Libraries" },
+  { name: "Groq", category: "Tools" },
+  { name: "GraphQL", category: "Tools" },
+  { name: "Sanity.io", category: "Tools" },
+  { name: "Firebase", category: "Tools" },
+  { name: "Vercel", category: "Tools" },
+  { name: "LangChain", category: "Tools" },
+  { name: "Docker", category: "Tools" },
+  { name: "Redis", category: "Tools" },
+  { name: "Kafka", category: "Tools" },
+  { name: "Git", category: "Tools" },
+  { name: "Framer Motion", category: "Tools" }
 ] as const;
+

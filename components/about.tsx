@@ -17,28 +17,53 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About</SectionHeading>
       <p className="mb-3">
-        After completing Intermediate with in
-        <span className="font-medium"> Computer Science</span>, I pursued my passion for web development.
-        I gained hands-on experience as a Full Stack Developer at Panacloud Pvt Ltd, where I developed and maintained responsive, user-friendly, and visually appealing websites using
-        <span className="font-medium">Next.js, React.js, and Tailwind CSS</span>.
-        <span className="italic">My favorite part of web development</span> is creating intuitive user experiences and optimizing website performance.
-        My core stack includes
-        <span className="font-medium">Next.js, React.js, Typescript, and Tailwind CSS</span>.
-        I am also familiar with Python, C, C++, Express.js, Fast API, Material UI, ShadCN UI, SQLite and Neon Database.
-        I am always eager to learn new technologies and am currently looking for a
-        <span className="font-medium">full-time position</span> as a Full-Stack developer.
+        After completing my Intermediate (12th) in {' '}
+        <span className="font-medium">Computer Science</span>, I followed my
+        passion for web development and honed my skills as a {' '}
+        <span className="font-medium">Full Stack Developer</span>. During my
+        tenure at {' '}
+        <span className="font-medium">Panacloud Pvt Ltd {' '}</span> and {' '}
+        <span className="font-medium">Innovative Widget {' '}</span>, I was
+        responsible for developing and managing end-to-end web applications. I
+        built robust, user-friendly interfaces while also engineering scalable
+        backend systems and implementing efficient business logic. My role
+        demanded expertise in frameworks such as {' '}
+        <span className="font-medium">
+          Next.js, React.js, Tailwind CSS, Express.js, and FastAPI
+        </span>
+        .
       </p>
 
       <p>
-        <span className="italic">When I'm not development</span>, I enjoy exploring new technologies, especially in the fields of AI and data science.
-        I am currently working towards a certification in
-        <span className="font-medium"> Cloud Applied Generative AI Engineering</span>.
-        I am currently pursuing a <span className="font-medium"> Bachelor's degree in Data Science </span> from Sindh Madarsatul Islam University <span className="font-medium"> (SMIU)</span>.
-        I also have a keen interest in open-source projects and enjoy contributing to the tech community.
+        I thrive on creating seamless, high-performance web experiences that
+        prioritize both functionality and user satisfaction. My core tech stack
+        includes {' '}
+        <span className="font-medium">
+          Next.js, React.js, TypeScript, Tailwind CSS, and Node.js {' '}
+        </span>
+        , complemented by skills in {' '}
+        <span className="font-medium">
+          Python, Docker, Redis, LangChain, Kafka, and more {' '}
+        </span>
+        . I am passionate about continuous learning and am currently working
+        towards certifications in {' '}
+        <span className="font-medium">
+          Docker, AWS, and Applied Generative AI Engineering {' '}
+        </span>
+        . Additionally, I am pursuing a {' '}
+        <span className="font-medium">Bachelor's degree in Data Science</span>{" "}
+        from Sindh Madarsatul Islam University{" "}
+        <span className="font-medium">(SMIU)</span>.
       </p>
 
+      <p>
+        I am actively seeking a{" "}
+        <span className="font-medium">full-time role</span> as a Full Stack
+        Developer, where I can bring my experience in full-cycle development and
+        a deep commitment to innovation and optimization to the team.
+      </p>
     </motion.section>
   );
 }
